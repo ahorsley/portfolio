@@ -1,0 +1,289 @@
+/*
+--------------
+GENERAL
+--------------
+*/
+
+h1 {
+	font-size: 1.6em;
+	line-height: 3em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+.section-head {
+	padding-top: 4.5em;
+	text-align: left;
+	width: 67em;
+	margin: auto;
+}
+
+.section-head p {
+	padding-top: 1em;
+	padding-bottom: 3.5em;
+}
+
+.left-card {
+	float: left;
+}
+
+.right-card {
+	float: right;
+}
+
+/*
+--------------
+HEADER
+--------------
+*/
+
+header,
+#nav-bar,
+#nav-bar-logo,
+#nav-bar-mobile-icon,
+#nav-bar-menu {
+	height: 5em;
+}
+
+header {
+	width: 100%;
+}
+
+#nav-bar-logo {
+	width: 25%;
+	max-width: 19em;
+	border-right: 1px solid #F0D094;
+}
+
+#nav-bar-mobile-icon {
+	display: none;
+}
+
+#nav-bar-menu {
+	width: 41.5em;
+	padding-top: 1.9em;
+	padding-right: 0.5em;
+}
+
+#nav-bar-menu a {
+	font-size: 1.2em;
+	margin-right: 2.5em;
+}
+
+/*
+--------------
+COVER
+--------------
+*/
+
+#home-cover {
+	height: 29em;
+	padding: 6.25em 0;
+}
+
+#home-cover h1 {
+	font-size: 3em;
+	line-height: 1.4em;
+}
+
+#home-cover p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	width: 35em;
+	margin: 1em auto 0 auto;
+}
+
+
+/*
+--------------
+WORK
+--------------
+*/
+
+#home-work {
+	height: 76em;
+}
+
+.work-project {
+	width: 67em;
+	height: 27.8em;
+	text-align: left;
+}
+
+.work-project-cover {
+	width: 33.4em;
+	height: 27.8em;
+}
+
+.work-project-cover {
+	display: inline-block;
+}
+
+.work-project-details {
+	display: inline-block;
+	vertical-align: top;
+	width: 33em;
+	height: 27.8em;
+	padding-top: 7.25em;
+	padding-left: 4em;
+}
+
+.work-project p {
+	padding-top: 1.2em;
+	line-height: 1.6em;
+	width: 21em;
+	margin-bottom: 1.5em;
+}
+
+.work-project a {
+	font-size: 1.2em;
+}
+
+.work-project-divider {
+	height: 2em;
+}
+
+
+/*
+--------------
+SIDE SALAD
+--------------
+*/
+
+#home-side {
+	height: 57em;
+}
+
+#side-project-container {
+	width: 67em;
+	height: 39em;
+	margin: auto;
+}
+
+.side-project {
+	width: 32.4em;
+	height: 38.5em;
+	display: inline-block;
+}
+
+.side-project-cover {
+	width: 32.4em;
+	height: 17.5em;
+	margin-bottom: 1.8em;
+}
+
+.side-project-details {
+	width: 28em;
+	margin: auto;
+	text-align: left;
+}
+
+.side-project-tag-row {
+	padding-top: 2em;
+	display: inline-block;
+}
+
+.side-project-tag {
+	font-size: 1em;
+	height: 1.8em;
+	padding: 0.3em 0.75em;
+	margin: 0em 0.125em;
+
+}
+
+.side-project p {
+	padding-top: 1.2em;
+	line-height: 1.6em;
+	width: 21em;
+	margin-bottom: 1em;
+}
+
+.side-project a {
+	font-size: 1.2em;
+}
+
+.side-project-divider {
+	display: none;
+}
+
+
+/*
+--------------
+WRITING
+--------------
+*/
+
+#home-writing {
+	height: 47.5em;
+}
+
+#writing-article-container {
+	width: 67em;
+	height: 17.5em;
+	margin: auto;
+}
+
+.writing-article {
+	width: 67em;
+	height: 13.5em;
+	margin-bottom: 2em;
+	padding: 2em 4em;
+}
+
+.writing-article-details {
+	text-align: left;
+}
+
+.writing-article h3 {
+	line-height: 1.4em;
+}
+
+.writing-article p {
+	padding-top: 1.2em;
+	line-height: 1.6em;
+	margin: -0.75em 0em 1em 0em;
+}
+
+.writing-article a {
+	font-size: 1.2em;
+}
+
+
+
+/*
+--------------
+CONTACT
+--------------
+*/
+
+#home-contact {
+	height: 13em;
+}
+
+#home-contact-container {
+	width: 67em;
+	height: 13em;
+	margin: auto;
+}
+
+.contact-icons {
+	width: 12em;
+	text-align: right;
+	float: right;
+	margin-top: -7.5em;
+}
+
+.contact-icons img {
+	height: 2.5em;
+	margin: 0em 0.5em;
+}

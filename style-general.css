@@ -1,0 +1,284 @@
+/*
+--------------
+FONTS
+--------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+/*
+--------------
+GENERAL FIXES & SETTINGS
+--------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Noto Serif", serif;
+    font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*
+--------------
+TYPOGRAPHY
+--------------
+*/
+
+section {
+	text-align: center;
+}
+
+p,
+a {
+	font-family: "Open Sans", sans-serif;
+}
+
+hr {
+    height: 1px;
+    border-top: 3px solid #FF9C94;
+    margin: 0 auto;
+    width: 5em;
+}
+
+.tan-font {
+	color: #D59B4A;
+}
+
+.brown-font {
+	color: #A77937;
+}
+
+.red-font {
+	color: #B8582F;
+}
+
+.heavy-font {
+	font-weight: 700;
+}
+
+.menu-links {
+	color: #A77937;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+/* LINKS */
+
+
+/* unvisited, visited, hover and selected */
+/*
+a:link,
+a:visited,
+a:active {
+  color: #A9A9A9;
+}
+
+.menu-items:hover {
+  color: #E3CA96;
+}
+
+#current-page {
+	color: #E3CA96;
+	font-weight: 800;
+}
+*/
+
+/*
+--------------
+BUTTONS
+--------------
+*/
+
+
+
+
+
+
+/*
+---------------------------------------------
+-------------- SECTION STYLING --------------
+---------------------------------------------
+*/
+
+
+/*
+--------------
+GENERAL SECTION STYLING
+--------------
+*/
+
+.outline {
+	outline: 1px solid #F0D094;	
+}
+
+.light-fill {
+	background: #FDF5E6;	
+}
+
+.dark-fill {
+	background: #FBEFD8;		
+}
+
+
+/*
+--------------
+HEADER
+--------------
+*/
+
+
+#nav-bar,
+#nav-bar-logo,
+#nav-bar-mobile-icon {
+	display: inline-block;
+}
+
+#nav-bar-logo,
+#nav-bar-mobile-icon {
+	text-align: center;
+}
+
+#nav-bar {
+	width: 100%;
+	margin: auto;
+}
+
+#nav-bar-logo {
+	border-right: 1px solid #F0D094;
+}
+
+#nav-bar-mobile-icon {
+	width: 5em;
+	border-left: 1px solid #F0D094;
+	float: right;
+	padding-top: 1.1em;
+}
+
+.mobile-icon {
+	height: 0.3em;
+	width: 2em;
+	background-color: #D59B4A;
+	margin: 0.4em auto;
+}
+
+#nav-bar-menu {
+	border-left: 1px solid #F0D094;
+	float: right;
+	text-align: right;
+}
+
+#nav-bar-menu a {
+	display: inline-block;
+}
+
+
+/*
+--------------
+HOME COVER
+--------------
+*/
+
+#home-cover {
+	text-align: center;
+}
+
+
+/*
+--------------
+WORK PROJECTS
+--------------
+*/
+
+.work-project {
+	margin: auto;
+}
+
+.work-project-cover {
+	background-color: white;
+}
+
+#project-cover-2 {
+	float: right;
+}
+
+
+/*
+--------------
+SIDE PROJECTS
+--------------
+*/
+
+.side-project {
+	margin: auto;
+}
+
+.side-project-cover {
+	background-color: white;
+}
+
+.side-project-tag {
+	display: inline-block;
+	background-color: #D59B4A;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+
+/*
+--------------
+SIDE PROJECTS
+--------------
+*/
+
+.writing-article {
+	margin: auto;
+}
+
+.writing-article p {
+	padding-bottom: 0.75em;
+}
+
+.writing-article a {
+	outline: 1px solid #A77937;
+	padding: 0.5em 1em;	
+}
+
+
+
+/*
+--------------
+FOOTER
+--------------
+*/
+
+footer {
+	background-color: #D59B4A;
+	text-align: center;
+	height: 5em;
+}
+
+.footer-container {
+	color: white;
+	margin: auto;
+	padding-top: 1.8em;
+	width: 22em;
+	height: 1.4em;
+}
+
+.footer-container p {
+	font-size: 1.4em;
+	font-family: "Noto Serif", serif;
+}
+
+
